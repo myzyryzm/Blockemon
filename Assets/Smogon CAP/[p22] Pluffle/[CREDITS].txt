@@ -1,0 +1,15 @@
+----------------------------
+Pluffle 3D Model :: CREDITS
+----------------------------
+
+Model Sheet:  QxC4eva
+Wireframe:    QxC4eva
+UV Mapping:   QxC4eva
+Rigging:      QxC4eva
+Textures:     QxC4eva
+Animation:    QxC4eva
+Shaders:      QxC4eva
+
+Special Thanks:
+    Quanyails
+    HeaLnDeaL

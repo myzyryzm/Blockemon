@@ -1,0 +1,11 @@
+------------------------------
+Scratchet 3D Model :: CREDITS
+------------------------------
+
+Model Sheet:  paintseagull (01-02), QxC4eva (03)
+Wireframe:    QxC4eva
+UV Mapping:   QxC4eva
+Rigging:      QxC4eva
+Textures:     paintseagull
+Animation:    -incomplete-
+Shaders:      -incomplete-

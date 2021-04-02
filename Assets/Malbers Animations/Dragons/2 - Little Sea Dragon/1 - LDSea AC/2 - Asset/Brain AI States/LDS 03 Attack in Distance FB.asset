@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e33e187dc72d4a48aaede99913c6393, type: 3}
+  m_Name: LDS 03 Attack in Distance FB
+  m_EditorClassIdentifier: 
+  tasks:
+  - {fileID: 11400000, guid: fb64f67145d7a8c46b4a6e4d95d655e5, type: 2}
+  - {fileID: 11400000, guid: ff56f4762056add468aeb3b0679896b4, type: 2}
+  - {fileID: 11400000, guid: 38058a40835f5a143b88cd817d0d4feb, type: 2}
+  transitions:
+  - decision: {fileID: 11400000, guid: e7e2645ff1542844db35d825c1af0d82, type: 2}
+    trueState: {fileID: 11400000, guid: 7f1a33e4676a0614da6211c151ccff83, type: 2}
+    falseState: {fileID: 11400000, guid: 2ecb231e39609524b9fd193fb84c5f26, type: 2}
+  - decision: {fileID: 11400000, guid: 4b11d2442ec76bd4ea0b36728cec4dda, type: 2}
+    trueState: {fileID: 11400000, guid: 2ecb231e39609524b9fd193fb84c5f26, type: 2}
+    falseState: {fileID: 11400000, guid: 7f1a33e4676a0614da6211c151ccff83, type: 2}
+  GizmoStateColor: {r: 1, g: 0, b: 0.99701786, a: 1}

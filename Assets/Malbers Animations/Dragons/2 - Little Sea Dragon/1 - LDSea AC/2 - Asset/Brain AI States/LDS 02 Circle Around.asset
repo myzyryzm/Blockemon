@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e33e187dc72d4a48aaede99913c6393, type: 3}
+  m_Name: LDS 02 Circle Around
+  m_EditorClassIdentifier: 
+  tasks:
+  - {fileID: 11400000, guid: 012cd32dae60c42439939df993fe2586, type: 2}
+  - {fileID: 11400000, guid: b35b1cd4654a89e409d6ab40a679b94a, type: 2}
+  - {fileID: 11400000, guid: ae7fac85f19b9a9418c2e7f7841c5fe4, type: 2}
+  - {fileID: 11400000, guid: ff56f4762056add468aeb3b0679896b4, type: 2}
+  transitions:
+  - decision: {fileID: 11400000, guid: 0e0508a61aeba9c4b8c2d1729e5ecb6f, type: 2}
+    trueState: {fileID: 11400000, guid: 6de571c2015b54d4da66c1257f4b6ead, type: 2}
+    falseState: {fileID: 11400000, guid: 2ecb231e39609524b9fd193fb84c5f26, type: 2}
+  - decision: {fileID: 11400000, guid: 4b11d2442ec76bd4ea0b36728cec4dda, type: 2}
+    trueState: {fileID: 11400000, guid: 2ecb231e39609524b9fd193fb84c5f26, type: 2}
+    falseState: {fileID: 11400000, guid: 7f1a33e4676a0614da6211c151ccff83, type: 2}
+  GizmoStateColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}

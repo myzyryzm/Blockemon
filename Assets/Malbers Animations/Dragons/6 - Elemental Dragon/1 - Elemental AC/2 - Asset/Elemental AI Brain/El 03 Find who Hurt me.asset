@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e33e187dc72d4a48aaede99913c6393, type: 3}
+  m_Name: El 03 Find who Hurt me
+  m_EditorClassIdentifier: 
+  tasks:
+  - {fileID: 11400000, guid: ae3d20b8dad49f94583b5bb86d88df94, type: 2}
+  transitions:
+  - decision: {fileID: 11400000, guid: e7579d7d7d0ee8d4eac167112991ed07, type: 2}
+    trueState: {fileID: 11400000, guid: d8aa1e0d5e9a7ac4fbc32e0c3c03cf1b, type: 2}
+    falseState: {fileID: 11400000, guid: 2ecb231e39609524b9fd193fb84c5f26, type: 2}
+  - decision: {fileID: 11400000, guid: 1b224bf866f475844ba4f60d827332a5, type: 2}
+    trueState: {fileID: 11400000, guid: 53a85023fe84cf942a91e707ffa7a386, type: 2}
+    falseState: {fileID: 11400000, guid: 2ecb231e39609524b9fd193fb84c5f26, type: 2}
+  GizmoStateColor: {r: 0, g: 1, b: 0.1323154, a: 1}
