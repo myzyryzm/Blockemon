@@ -7,8 +7,6 @@ TagManager:
   - Stair
   - Climb
   - Fly
-  - Animal
-  - Water
   layers:
   - Default
   - TransparentFX
@@ -18,7 +16,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - CharacterViewer
   - 
   - 
   - 

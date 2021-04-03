@@ -1,0 +1,19 @@
+{
+    "name": "BaseRPG",
+    "references": [
+        "CameraAndInput",
+        "UIUtilities",
+        "UnityEditorUtilsEditor",
+        "UnityEditorUtils",
+        "DevExtension"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

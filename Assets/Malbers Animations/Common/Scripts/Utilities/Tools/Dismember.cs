@@ -28,7 +28,7 @@ namespace MalbersAnimations
             if (MaterialItemName != string.Empty)
             {
                 MaterialChanger AnimalMaterialChanger = this.FindComponent<MaterialChanger>();
-                MaterialItem MaterialItemLimbs = AnimalMaterialChanger.materialList.Find(mat => mat.Name.ToLower() == MaterialItemName.ToLower()); //Find 
+                Utilities.MaterialItem MaterialItemLimbs = AnimalMaterialChanger.materialList.Find(mat => mat.Name.ToLower() == MaterialItemName.ToLower()); //Find 
 
                 if (MaterialItemLimbs != null)
                 {
