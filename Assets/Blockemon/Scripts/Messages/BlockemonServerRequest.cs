@@ -1,6 +1,6 @@
 ﻿using CodeControl;
 
-namespace Blockemon
+namespace Blockemon.Messages
 {
     public class BlockemonServerRequest : Message {}
 }
