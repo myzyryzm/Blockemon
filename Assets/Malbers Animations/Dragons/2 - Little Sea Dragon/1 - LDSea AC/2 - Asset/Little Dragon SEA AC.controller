@@ -152,6 +152,8 @@ MonoBehaviour:
   ModeID: {fileID: 11400000, guid: 4dc5ca673dc60d346a62529c8a9bd8ff, type: 2}
   EnterMode: 1
   ExitMode: 1
+  ExitOnAbility: 0
+  ExitAbility: -1
 --- !u!114 &114096602834019564
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -427,6 +429,8 @@ MonoBehaviour:
   ModeID: {fileID: 11400000, guid: 4dc5ca673dc60d346a62529c8a9bd8ff, type: 2}
   EnterMode: 0
   ExitMode: 1
+  ExitOnAbility: 0
+  ExitAbility: -1
 --- !u!114 &114185618304761658
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -495,6 +499,8 @@ MonoBehaviour:
   ModeID: {fileID: 11400000, guid: b04409080ae7e3c4fa645d8c67b40424, type: 2}
   EnterMode: 1
   ExitMode: 1
+  ExitOnAbility: 0
+  ExitAbility: -1
 --- !u!114 &114209127904883078
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -550,6 +556,8 @@ MonoBehaviour:
   ModeID: {fileID: 11400000, guid: 36ebf5306b7174949934aa62255781b1, type: 2}
   EnterMode: 1
   ExitMode: 1
+  ExitOnAbility: 0
+  ExitAbility: -1
 --- !u!114 &114227962235045404
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -607,6 +615,8 @@ MonoBehaviour:
   ModeID: {fileID: 11400000, guid: 4dc5ca673dc60d346a62529c8a9bd8ff, type: 2}
   EnterMode: 1
   ExitMode: 1
+  ExitOnAbility: 0
+  ExitAbility: -1
 --- !u!114 &114245224442142990
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -622,6 +632,8 @@ MonoBehaviour:
   ModeID: {fileID: 11400000, guid: 4dc5ca673dc60d346a62529c8a9bd8ff, type: 2}
   EnterMode: 1
   ExitMode: 1
+  ExitOnAbility: 0
+  ExitAbility: -1
 --- !u!114 &114250491632409826
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -666,6 +678,8 @@ MonoBehaviour:
   ModeID: {fileID: 11400000, guid: 1286867ad3c4cdd4baacac3373aff92c, type: 2}
   EnterMode: 1
   ExitMode: 1
+  ExitOnAbility: 0
+  ExitAbility: -1
 --- !u!114 &114265376196594256
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -681,11 +695,16 @@ MonoBehaviour:
   sounds:
   - {fileID: 8300000, guid: 3dfc40c3621fb004ba2ba9d2e6f682d7, type: 3}
   playOnEnter: 1
+  Loop: 0
   stopOnExit: 0
   playOnTime: 0
   NormalizedTime: 0.5
-  pitch: 1
-  volume: 1
+  pitch:
+    minValue: 1
+    maxValue: 1
+  volume:
+    minValue: 1
+    maxValue: 1
 --- !u!114 &114275912183701186
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -730,6 +749,8 @@ MonoBehaviour:
   ModeID: {fileID: 11400000, guid: 4dc5ca673dc60d346a62529c8a9bd8ff, type: 2}
   EnterMode: 1
   ExitMode: 1
+  ExitOnAbility: 0
+  ExitAbility: -1
 --- !u!114 &114287166812730486
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -745,6 +766,8 @@ MonoBehaviour:
   ModeID: {fileID: 11400000, guid: 4dc5ca673dc60d346a62529c8a9bd8ff, type: 2}
   EnterMode: 1
   ExitMode: 1
+  ExitOnAbility: 0
+  ExitAbility: -1
 --- !u!114 &114293392647770888
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -838,6 +861,8 @@ MonoBehaviour:
   ModeID: {fileID: 11400000, guid: 4dc5ca673dc60d346a62529c8a9bd8ff, type: 2}
   EnterMode: 1
   ExitMode: 1
+  ExitOnAbility: 0
+  ExitAbility: -1
 --- !u!114 &114312895673906502
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -853,6 +878,8 @@ MonoBehaviour:
   ModeID: {fileID: 11400000, guid: 4dc5ca673dc60d346a62529c8a9bd8ff, type: 2}
   EnterMode: 0
   ExitMode: 1
+  ExitOnAbility: 0
+  ExitAbility: -1
 --- !u!114 &114314917935040566
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -868,6 +895,8 @@ MonoBehaviour:
   ModeID: {fileID: 11400000, guid: 4dc5ca673dc60d346a62529c8a9bd8ff, type: 2}
   EnterMode: 1
   ExitMode: 1
+  ExitOnAbility: 0
+  ExitAbility: -1
 --- !u!114 &114317558056970110
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -883,6 +912,8 @@ MonoBehaviour:
   ModeID: {fileID: 11400000, guid: 7888596ce3530b145bc15622fac8a6c4, type: 2}
   EnterMode: 1
   ExitMode: 1
+  ExitOnAbility: 0
+  ExitAbility: -1
 --- !u!114 &114339536339256770
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1096,6 +1127,8 @@ MonoBehaviour:
   ModeID: {fileID: 11400000, guid: 1286867ad3c4cdd4baacac3373aff92c, type: 2}
   EnterMode: 1
   ExitMode: 1
+  ExitOnAbility: 0
+  ExitAbility: -1
 --- !u!114 &114362315350295652
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1127,6 +1160,8 @@ MonoBehaviour:
   ModeID: {fileID: 11400000, guid: 4dc5ca673dc60d346a62529c8a9bd8ff, type: 2}
   EnterMode: 1
   ExitMode: 1
+  ExitOnAbility: 0
+  ExitAbility: -1
 --- !u!114 &114384049717832250
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1227,6 +1262,8 @@ MonoBehaviour:
   ModeID: {fileID: 11400000, guid: b04409080ae7e3c4fa645d8c67b40424, type: 2}
   EnterMode: 1
   ExitMode: 1
+  ExitOnAbility: 0
+  ExitAbility: -1
 --- !u!114 &114397839602772018
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1271,6 +1308,8 @@ MonoBehaviour:
   ModeID: {fileID: 11400000, guid: 1286867ad3c4cdd4baacac3373aff92c, type: 2}
   EnterMode: 1
   ExitMode: 1
+  ExitOnAbility: 0
+  ExitAbility: -1
 --- !u!114 &114407619334666862
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1517,6 +1556,8 @@ MonoBehaviour:
   ModeID: {fileID: 11400000, guid: 36ebf5306b7174949934aa62255781b1, type: 2}
   EnterMode: 1
   ExitMode: 1
+  ExitOnAbility: 0
+  ExitAbility: -1
 --- !u!114 &114503132143349348
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1532,6 +1573,8 @@ MonoBehaviour:
   ModeID: {fileID: 11400000, guid: 1286867ad3c4cdd4baacac3373aff92c, type: 2}
   EnterMode: 1
   ExitMode: 1
+  ExitOnAbility: 0
+  ExitAbility: -1
 --- !u!114 &114510201167581988
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1591,6 +1634,8 @@ MonoBehaviour:
   ModeID: {fileID: 11400000, guid: 4dc5ca673dc60d346a62529c8a9bd8ff, type: 2}
   EnterMode: 1
   ExitMode: 1
+  ExitOnAbility: 0
+  ExitAbility: -1
 --- !u!114 &114550803692162560
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1606,6 +1651,8 @@ MonoBehaviour:
   ModeID: {fileID: 11400000, guid: 1286867ad3c4cdd4baacac3373aff92c, type: 2}
   EnterMode: 1
   ExitMode: 1
+  ExitOnAbility: 0
+  ExitAbility: -1
 --- !u!114 &114560901531271112
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1734,6 +1781,8 @@ MonoBehaviour:
   ModeID: {fileID: 11400000, guid: c4aa70dd3ff13b74ea0585baeb295ce5, type: 2}
   EnterMode: 1
   ExitMode: 1
+  ExitOnAbility: 0
+  ExitAbility: -1
 --- !u!114 &114624208357369936
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1749,6 +1798,8 @@ MonoBehaviour:
   ModeID: {fileID: 11400000, guid: 4dc5ca673dc60d346a62529c8a9bd8ff, type: 2}
   EnterMode: 1
   ExitMode: 1
+  ExitOnAbility: 0
+  ExitAbility: -1
 --- !u!114 &114627404735217038
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1830,6 +1881,8 @@ MonoBehaviour:
   ModeID: {fileID: 11400000, guid: 4dc5ca673dc60d346a62529c8a9bd8ff, type: 2}
   EnterMode: 1
   ExitMode: 1
+  ExitOnAbility: 0
+  ExitAbility: -1
 --- !u!114 &114638136123058308
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2091,11 +2144,16 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 2349bb1d06fcb1943ba5e284fa9b7a28, type: 3}
   - {fileID: 8300000, guid: 08f9a1eb84435db469cdf9dc5b98135f, type: 3}
   playOnEnter: 1
+  Loop: 0
   stopOnExit: 0
   playOnTime: 0
   NormalizedTime: 0.5
-  pitch: 0.38
-  volume: 1
+  pitch:
+    minValue: 1
+    maxValue: 1
+  volume:
+    minValue: 1
+    maxValue: 1
 --- !u!114 &114762723010491306
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2111,6 +2169,8 @@ MonoBehaviour:
   ModeID: {fileID: 11400000, guid: 1286867ad3c4cdd4baacac3373aff92c, type: 2}
   EnterMode: 1
   ExitMode: 1
+  ExitOnAbility: 0
+  ExitAbility: -1
 --- !u!114 &114787265750023350
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2171,6 +2231,8 @@ MonoBehaviour:
   ModeID: {fileID: 11400000, guid: 4dc5ca673dc60d346a62529c8a9bd8ff, type: 2}
   EnterMode: 1
   ExitMode: 1
+  ExitOnAbility: 0
+  ExitAbility: -1
 --- !u!114 &114803943371052884
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2245,11 +2307,16 @@ MonoBehaviour:
   sounds:
   - {fileID: 8300000, guid: 3dfc40c3621fb004ba2ba9d2e6f682d7, type: 3}
   playOnEnter: 1
+  Loop: 0
   stopOnExit: 0
   playOnTime: 0
   NormalizedTime: 0.5
-  pitch: 1
-  volume: 1
+  pitch:
+    minValue: 1
+    maxValue: 1
+  volume:
+    minValue: 1
+    maxValue: 1
 --- !u!114 &114822227338569484
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2265,6 +2332,8 @@ MonoBehaviour:
   ModeID: {fileID: 11400000, guid: 4dc5ca673dc60d346a62529c8a9bd8ff, type: 2}
   EnterMode: 0
   ExitMode: 1
+  ExitOnAbility: 0
+  ExitAbility: -1
 --- !u!114 &114838052380811230
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2280,6 +2349,8 @@ MonoBehaviour:
   ModeID: {fileID: 11400000, guid: 4dc5ca673dc60d346a62529c8a9bd8ff, type: 2}
   EnterMode: 0
   ExitMode: 1
+  ExitOnAbility: 0
+  ExitAbility: -1
 --- !u!114 &114839772684812966
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2295,6 +2366,8 @@ MonoBehaviour:
   ModeID: {fileID: 11400000, guid: 1286867ad3c4cdd4baacac3373aff92c, type: 2}
   EnterMode: 1
   ExitMode: 1
+  ExitOnAbility: 0
+  ExitAbility: -1
 --- !u!114 &114843266553300316
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2310,6 +2383,8 @@ MonoBehaviour:
   ModeID: {fileID: 11400000, guid: 4dc5ca673dc60d346a62529c8a9bd8ff, type: 2}
   EnterMode: 1
   ExitMode: 1
+  ExitOnAbility: 0
+  ExitAbility: -1
 --- !u!114 &114846313541233950
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2354,6 +2429,8 @@ MonoBehaviour:
   ModeID: {fileID: 11400000, guid: 1286867ad3c4cdd4baacac3373aff92c, type: 2}
   EnterMode: 1
   ExitMode: 1
+  ExitOnAbility: 0
+  ExitAbility: -1
 --- !u!114 &114869033395584620
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2370,11 +2447,16 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 2349bb1d06fcb1943ba5e284fa9b7a28, type: 3}
   - {fileID: 8300000, guid: 08f9a1eb84435db469cdf9dc5b98135f, type: 3}
   playOnEnter: 1
+  Loop: 0
   stopOnExit: 0
   playOnTime: 0
   NormalizedTime: 0.5
-  pitch: 0.64
-  volume: 1
+  pitch:
+    minValue: 1
+    maxValue: 1
+  volume:
+    minValue: 1
+    maxValue: 1
 --- !u!114 &114908949630496948
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2432,6 +2514,8 @@ MonoBehaviour:
   ModeID: {fileID: 11400000, guid: 4dc5ca673dc60d346a62529c8a9bd8ff, type: 2}
   EnterMode: 1
   ExitMode: 0
+  ExitOnAbility: 0
+  ExitAbility: -1
 --- !u!114 &114916850409409436
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13370,22 +13454,22 @@ AnimatorStateMachine:
     m_Position: {x: 324, y: 36, z: 0}
   - serializedVersion: 1
     m_StateMachine: {fileID: 1107231746298051510}
-    m_Position: {x: 324, y: -60, z: 0}
+    m_Position: {x: 320, y: -60, z: 0}
   - serializedVersion: 1
     m_StateMachine: {fileID: 1107070459965775536}
     m_Position: {x: 324, y: -12, z: 0}
   - serializedVersion: 1
     m_StateMachine: {fileID: 1107235611564023184}
-    m_Position: {x: 324, y: -108, z: 0}
+    m_Position: {x: 320, y: -110, z: 0}
   - serializedVersion: 1
     m_StateMachine: {fileID: 1107725768359318366}
-    m_Position: {x: 324, y: -156, z: 0}
+    m_Position: {x: 320, y: -150, z: 0}
   - serializedVersion: 1
     m_StateMachine: {fileID: 1107558205811323176}
     m_Position: {x: 324, y: -300, z: 0}
   - serializedVersion: 1
     m_StateMachine: {fileID: 1107544640670036870}
-    m_Position: {x: 324, y: -204, z: 0}
+    m_Position: {x: 320, y: -200, z: 0}
   - serializedVersion: 1
     m_StateMachine: {fileID: 1107476818413743070}
     m_Position: {x: 324, y: -252, z: 0}
@@ -13400,32 +13484,32 @@ AnimatorStateMachine:
   - {fileID: 1109698884210466922}
   - {fileID: 1109629976594951376}
   m_StateMachineTransitions:
-  - first: {fileID: 1107070459965775536}
-    second:
-    - {fileID: 1109385210547945196}
-  - first: {fileID: 1107231746298051510}
-    second:
-    - {fileID: 1109785767638363906}
-  - first: {fileID: 1107235611564023184}
-    second:
-    - {fileID: 1109787047824159360}
   - first: {fileID: 1107469501483250876}
     second:
     - {fileID: 1109033166447876592}
-  - first: {fileID: 1107476818413743070}
+  - first: {fileID: 1107231746298051510}
     second:
-    - {fileID: 1109083924416649674}
-  - first: {fileID: 1107544640670036870}
+    - {fileID: 1109785767638363906}
+  - first: {fileID: 1107070459965775536}
     second:
-    - {fileID: 1109112807979178474}
-  - first: {fileID: 1107558205811323176}
+    - {fileID: 1109385210547945196}
+  - first: {fileID: 1107235611564023184}
     second:
-    - {fileID: 1109404109946880174}
+    - {fileID: 1109787047824159360}
   - first: {fileID: 1107725768359318366}
     second:
     - {fileID: 1109426879359929300}
+  - first: {fileID: 1107558205811323176}
+    second:
+    - {fileID: 1109404109946880174}
+  - first: {fileID: 1107544640670036870}
+    second:
+    - {fileID: 1109112807979178474}
+  - first: {fileID: 1107476818413743070}
+    second:
+    - {fileID: 1109083924416649674}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: 36, y: -180, z: 0}
+  m_AnyStatePosition: {x: 40, y: -180, z: 0}
   m_EntryPosition: {x: 36, y: -120, z: 0}
   m_ExitPosition: {x: 588, y: -120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
@@ -13455,14 +13539,14 @@ AnimatorStateMachine:
   - {fileID: 1101219931238964054}
   m_EntryTransitions: []
   m_StateMachineTransitions:
-  - first: {fileID: 1107421326752775924}
-    second:
-    - {fileID: 1109397064791954402}
   - first: {fileID: 1107516541848035874}
     second:
     - {fileID: 1109325423279836226}
+  - first: {fileID: 1107421326752775924}
+    second:
+    - {fileID: 1109397064791954402}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: 372, y: -288, z: 0}
+  m_AnyStatePosition: {x: 370, y: -290, z: 0}
   m_EntryPosition: {x: 396, y: -180, z: 0}
   m_ExitPosition: {x: 840, y: -324, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
@@ -13813,18 +13897,18 @@ AnimatorStateMachine:
   - first: {fileID: 1107029853327384558}
     second:
     - {fileID: 1109768082791610278}
-  - first: {fileID: 1107166775668250838}
+  - first: {fileID: 1107978402385392990}
     second:
-    - {fileID: 1109838859830667866}
+    - {fileID: 1109704620943117162}
   - first: {fileID: 1107400100259391502}
     second:
     - {fileID: 1109913596634540122}
   - first: {fileID: 1107493565191404800}
     second:
     - {fileID: 1109928828965665466}
-  - first: {fileID: 1107978402385392990}
+  - first: {fileID: 1107166775668250838}
     second:
-    - {fileID: 1109704620943117162}
+    - {fileID: 1109838859830667866}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 72, y: -36, z: 0}
   m_EntryPosition: {x: 48, y: 120, z: 0}

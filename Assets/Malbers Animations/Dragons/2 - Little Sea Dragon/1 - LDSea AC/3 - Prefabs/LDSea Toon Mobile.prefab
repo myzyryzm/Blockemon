@@ -10,7 +10,12 @@ PrefabInstance:
     - target: {fileID: 8819102625081031299, guid: 865a6244e5d661548aa6b1a703b654d7,
         type: 3}
       propertyPath: m_Name
-      value: LDSea Toon
+      value: LDSea Toon Mobile
+      objectReference: {fileID: 0}
+    - target: {fileID: 8822532082505048039, guid: 865a6244e5d661548aa6b1a703b654d7,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8822532082505048039, guid: 865a6244e5d661548aa6b1a703b654d7,
         type: 3}
@@ -29,6 +34,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8822532082505048039, guid: 865a6244e5d661548aa6b1a703b654d7,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8822532082505048039, guid: 865a6244e5d661548aa6b1a703b654d7,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
@@ -40,16 +50,6 @@ PrefabInstance:
     - target: {fileID: 8822532082505048039, guid: 865a6244e5d661548aa6b1a703b654d7,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8822532082505048039, guid: 865a6244e5d661548aa6b1a703b654d7,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8822532082505048039, guid: 865a6244e5d661548aa6b1a703b654d7,
-        type: 3}
-      propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8822532082505048039, guid: 865a6244e5d661548aa6b1a703b654d7,
@@ -69,8 +69,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8932123391576691403, guid: 865a6244e5d661548aa6b1a703b654d7,
         type: 3}
-      propertyPath: TurnMultiplier.UseConstant
+      propertyPath: ShowLockInputs
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8932123391576691403, guid: 865a6244e5d661548aa6b1a703b654d7,
+        type: 3}
+      propertyPath: useCameraUp.ConstantValue
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8932123391576691403, guid: 865a6244e5d661548aa6b1a703b654d7,
         type: 3}
@@ -79,13 +84,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8932123391576691403, guid: 865a6244e5d661548aa6b1a703b654d7,
         type: 3}
-      propertyPath: useCameraInput.UseConstant
+      propertyPath: TurnMultiplier.UseConstant
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8932123391576691403, guid: 865a6244e5d661548aa6b1a703b654d7,
         type: 3}
-      propertyPath: useCameraUp.ConstantValue
-      value: 1
+      propertyPath: useCameraInput.UseConstant
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8932765668965856707, guid: 865a6244e5d661548aa6b1a703b654d7,
         type: 3}
